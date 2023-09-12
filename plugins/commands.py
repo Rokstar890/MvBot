@@ -155,7 +155,7 @@ async def start(client, message):
                                 InlineKeyboardButton('ᴍʏ ꜰᴀᴛʜᴇʀ', url="https://t.me/rajbharsaheb")
                             ],
                             [
-                                InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
+                                InlineKeyboardButton('🚀 ꜰᴀꜱᴛ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ🖥️', callback_data=f'generate_stream_link:{file_id}') #Don't change anything without contacting me @LazyDeveloperr
                             ]
                         ]
                     )
