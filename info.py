@@ -99,7 +99,7 @@ FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else 
 URL = "https://shortnfly-109ae7c93294.herokuapp.com/".format(FQDN) if ON_HEROKU or NO_PORT else \
     "https://shortnfly-109ae7c93294.herokuapp.com/".format(FQDN, PORT)
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
-WORKERS = int(environ.get('WORKERS', '4'))
+WORKERS = int(environ.get('WORKERS', '1'))
 SESSION_NAME = str(environ.get('SESSION_NAME', 'LazyBot'))
 MULTI_CLIENT = False
 name = str(environ.get('name', 'LazyPrincess'))
